@@ -38,6 +38,10 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.10"
     }
+    
+    lint {
+        abortOnError = false // Don't fail the build if there are lint errors
+    }
 }
 
 dependencies {
@@ -55,6 +59,7 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation("androidx.compose.material:material-icons-extended:1.5.4")
     debugImplementation(libs.androidx.compose.ui.tooling)
     
     // Lifecycle

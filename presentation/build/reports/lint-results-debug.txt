@@ -1,0 +1,146 @@
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:285: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#now [NewApi]
+                        text = formatDuration(session.startTime, LocalDateTime.now()),
+                                                                               ~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:373: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#format [NewApi]
+    return dateTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                    ~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:373: Error: Call requires API level 26 (current min is 24): java.time.format.DateTimeFormatter#ofPattern [NewApi]
+    return dateTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                                             ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:377: Error: Call requires API level 26 (current min is 24): java.time.Duration#between [NewApi]
+    val duration = Duration.between(start, end)
+                            ~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:377: Error: Cast from LocalDateTime to Temporal requires API level 26 (current min is 24) [NewApi]
+    val duration = Duration.between(start, end)
+                                    ~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:377: Error: Cast from LocalDateTime to Temporal requires API level 26 (current min is 24) [NewApi]
+    val duration = Duration.between(start, end)
+                                           ~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:378: Error: Call requires API level 26 (current min is 24): java.time.Duration#toHours [NewApi]
+    val hours = duration.toHours()
+                         ~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:379: Error: Call requires API level 26 (current min is 24): java.time.Duration#toMinutes [NewApi]
+    val minutes = duration.toMinutes() % 60
+                           ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt:380: Error: Call requires API level 26 (current min is 24): java.time.Duration#getSeconds [NewApi]
+    val seconds = duration.seconds % 60
+                           ~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:169: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#now [NewApi]
+                                value = formatDuration(session.startTime, session.endTime ?: LocalDateTime.now()),
+                                                                                                           ~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:409: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#format [NewApi]
+    return dateTime.format(DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy"))
+                    ~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:409: Error: Call requires API level 26 (current min is 24): java.time.format.DateTimeFormatter#ofPattern [NewApi]
+    return dateTime.format(DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy"))
+                                             ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:413: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#format [NewApi]
+    val start = startTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                          ~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:413: Error: Call requires API level 26 (current min is 24): java.time.format.DateTimeFormatter#ofPattern [NewApi]
+    val start = startTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                                                   ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:415: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#format [NewApi]
+        val end = endTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                          ~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:415: Error: Call requires API level 26 (current min is 24): java.time.format.DateTimeFormatter#ofPattern [NewApi]
+        val end = endTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                                                   ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:423: Error: Call requires API level 26 (current min is 24): java.time.Duration#between [NewApi]
+    val duration = java.time.Duration.between(start, end)
+                                      ~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:423: Error: Cast from LocalDateTime to Temporal requires API level 26 (current min is 24) [NewApi]
+    val duration = java.time.Duration.between(start, end)
+                                              ~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:423: Error: Cast from LocalDateTime to Temporal requires API level 26 (current min is 24) [NewApi]
+    val duration = java.time.Duration.between(start, end)
+                                                     ~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:424: Error: Call requires API level 26 (current min is 24): java.time.Duration#toHours [NewApi]
+    val hours = duration.toHours()
+                         ~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt:425: Error: Call requires API level 26 (current min is 24): java.time.Duration#toMinutes [NewApi]
+    val minutes = duration.toMinutes() % 60
+                           ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:174: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#now [NewApi]
+                    value = formatDuration(session.startTime, session.endTime ?: LocalDateTime.now()),
+                                                                                               ~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:222: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#format [NewApi]
+    return dateTime.format(DateTimeFormatter.ofPattern("EEEE, MMM d"))
+                    ~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:222: Error: Call requires API level 26 (current min is 24): java.time.format.DateTimeFormatter#ofPattern [NewApi]
+    return dateTime.format(DateTimeFormatter.ofPattern("EEEE, MMM d"))
+                                             ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:226: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#format [NewApi]
+    val start = startTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                          ~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:226: Error: Call requires API level 26 (current min is 24): java.time.format.DateTimeFormatter#ofPattern [NewApi]
+    val start = startTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                                                   ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:228: Error: Call requires API level 26 (current min is 24): java.time.LocalDateTime#format [NewApi]
+        val end = endTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                          ~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:228: Error: Call requires API level 26 (current min is 24): java.time.format.DateTimeFormatter#ofPattern [NewApi]
+        val end = endTime.format(DateTimeFormatter.ofPattern("HH:mm"))
+                                                   ~~~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:236: Error: Call requires API level 26 (current min is 24): java.time.Duration#between [NewApi]
+    val duration = java.time.Duration.between(start, end)
+                                      ~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:236: Error: Cast from LocalDateTime to Temporal requires API level 26 (current min is 24) [NewApi]
+    val duration = java.time.Duration.between(start, end)
+                                              ~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:236: Error: Cast from LocalDateTime to Temporal requires API level 26 (current min is 24) [NewApi]
+    val duration = java.time.Duration.between(start, end)
+                                                     ~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:237: Error: Call requires API level 26 (current min is 24): java.time.Duration#toHours [NewApi]
+    val hours = duration.toHours()
+                         ~~~~~~~
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/src/main/java/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt:238: Error: Call requires API level 26 (current min is 24): java.time.Duration#toMinutes [NewApi]
+    val minutes = duration.toMinutes() % 60
+                           ~~~~~~~~~
+
+   Explanation for issues of type "NewApi":
+   This check scans through all the Android API calls in the application and
+   warns about any calls that are not available on all versions targeted by
+   this application (according to its minimum SDK attribute in the manifest).
+
+   If you really want to use this API and don't need to support older devices
+   just set the minSdkVersion in your build.gradle or AndroidManifest.xml
+   files.
+
+   If your code is deliberately accessing newer APIs, and you have ensured
+   (e.g. with conditional execution) that this code will only ever be called
+   on a supported platform, then you can annotate your class or method with
+   the @TargetApi annotation specifying the local minimum SDK to apply, such
+   as @TargetApi(11), such that this check considers 11 rather than your
+   manifest file's minimum SDK as the required API level.
+
+   If you are deliberately setting android: attributes in style definitions,
+   make sure you place this in a values-vNN folder in order to avoid running
+   into runtime conflicts on certain devices where manufacturers have added
+   custom attributes whose ids conflict with the new ones on later platforms.
+
+   Similarly, you can use tools:targetApi="11" in an XML file to indicate that
+   the element will only be inflated in an adequate context.
+
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/build.gradle.kts:62: Warning: A newer version of androidx.compose.material:material-icons-extended than 1.5.4 is available: 1.7.8 [GradleDependency]
+    implementation("androidx.compose.material:material-icons-extended:1.5.4")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/a.tsitulskii/AndroidStudioProjects/gentrier/presentation/build.gradle.kts:62: Warning: Use version catalog instead [UseTomlInstead]
+    implementation("androidx.compose.material:material-icons-extended:1.5.4")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseTomlInstead":
+   If your project is using a libs.versions.toml file, you should place all
+   Gradle dependencies in the TOML file. This lint check looks for version
+   declarations outside of the TOML file and suggests moving them (and in the
+   IDE, provides a quickfix to performing the operation automatically).
+
+33 errors, 2 warnings

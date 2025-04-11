@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.1" type="incidents">
+
+    <incident
+        id="KaptUsageInsteadOfKsp"
+        severity="warning"
+        message="This library supports using KSP instead of kapt, which greatly improves performance. Learn more: https://developer.android.com/studio/build/migrate-to-ksp">
+        <show-url
+            description="Learn about how to enable KSP and use the KSP processor for this dependency instead"
+            url="https://developer.android.com/studio/build/migrate-to-ksp"/>
+        <location
+            file="${:data*projectDir}/build.gradle.kts"
+            line="51"
+            column="5"
+            startOffset="1170"
+            endLine="51"
+            endColumn="38"
+            endOffset="1203"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for com-google-android-gms-play-services-location"
+            robot="true">
+            <fix-replace
+                description="Replace with googlePlayServicesLocationVersion = &quot;21.0.1&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="googlePlayServicesLocationVersion = &quot;21.0.1&quot;&#xA;">
+                <range
+                    file="$HOME/AndroidStudioProjects/gentrier/gradle/libs.versions.toml"
+                    startOffset="25"
+                    endOffset="25"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with com-google-android-gms-play-services-location = { module = &quot;com.google.android.gms:play-services-location&quot;, version.ref = &quot;googlePlayServicesLocationVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="com-google-android-gms-play-services-location = { module = &quot;com.google.android.gms:play-services-location&quot;, version.ref = &quot;googlePlayServicesLocationVersion&quot; }&#xA;">
+                <range
+                    file="$HOME/AndroidStudioProjects/gentrier/gradle/libs.versions.toml"
+                    startOffset="571"
+                    endOffset="571"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.com.google.android.gms.play.services.location"
+                robot="true"
+                replacement="libs.com.google.android.gms.play.services.location">
+                <range
+                    file="${:data*projectDir}/build.gradle.kts"
+                    startOffset="1267"
+                    endOffset="1321"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:data*projectDir}/build.gradle.kts"
+            line="54"
+            column="21"
+            startOffset="1268"
+            endLine="54"
+            endColumn="73"
+            endOffset="1320"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.gms:play-services-location than 21.0.1 is available: 21.3.0">
+        <fix-replace
+            description="Change to 21.3.0"
+            family="Update versions"
+            oldString="21.0.1"
+            replacement="21.3.0"/>
+        <location
+            file="${:data*projectDir}/build.gradle.kts"
+            line="54"
+            column="21"
+            startOffset="1268"
+            endLine="54"
+            endColumn="73"
+            endOffset="1320"/>
+    </incident>
+
+</incidents>

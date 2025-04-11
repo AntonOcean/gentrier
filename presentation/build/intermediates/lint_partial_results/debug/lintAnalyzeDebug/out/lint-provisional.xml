@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.1" type="conditional_incidents">
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="285"
+            column="80"
+            startOffset="10327"
+            endLine="285"
+            endColumn="83"
+            endOffset="10330"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="now"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#now`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="373"
+            column="21"
+            startOffset="12889"
+            endLine="373"
+            endColumn="27"
+            endOffset="12895"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="format"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#format`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="373"
+            column="46"
+            startOffset="12914"
+            endLine="373"
+            endColumn="55"
+            endOffset="12923"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.format.DateTimeFormatter"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="ofPattern"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.format.DateTimeFormatter#ofPattern`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="377"
+            column="37"
+            startOffset="13044"
+            endLine="377"
+            endColumn="42"
+            endOffset="13049"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="message"
+                string="Cast from `LocalDateTime` to `Temporal` requires API level 26 (current min is %1$s)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="377"
+            column="44"
+            startOffset="13051"
+            endLine="377"
+            endColumn="47"
+            endOffset="13054"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="message"
+                string="Cast from `LocalDateTime` to `Temporal` requires API level 26 (current min is %1$s)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="377"
+            column="29"
+            startOffset="13036"
+            endLine="377"
+            endColumn="36"
+            endOffset="13043"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="between"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#between`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="378"
+            column="26"
+            startOffset="13081"
+            endLine="378"
+            endColumn="33"
+            endOffset="13088"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="toHours"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#toHours`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="379"
+            column="28"
+            startOffset="13118"
+            endLine="379"
+            endColumn="37"
+            endOffset="13127"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="toMinutes"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#toMinutes`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/active/ActiveSessionScreen.kt"
+            line="380"
+            column="28"
+            startOffset="13162"
+            endLine="380"
+            endColumn="35"
+            endOffset="13169"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="getSeconds"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#getSeconds`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="169"
+            column="108"
+            startOffset="7198"
+            endLine="169"
+            endColumn="111"
+            endOffset="7201"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="now"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#now`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="409"
+            column="21"
+            startOffset="17034"
+            endLine="409"
+            endColumn="27"
+            endOffset="17040"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="format"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#format`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="409"
+            column="46"
+            startOffset="17059"
+            endLine="409"
+            endColumn="55"
+            endOffset="17068"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.format.DateTimeFormatter"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="ofPattern"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.format.DateTimeFormatter#ofPattern`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="413"
+            column="27"
+            startOffset="17210"
+            endLine="413"
+            endColumn="33"
+            endOffset="17216"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="format"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#format`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="413"
+            column="52"
+            startOffset="17235"
+            endLine="413"
+            endColumn="61"
+            endOffset="17244"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.format.DateTimeFormatter"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="ofPattern"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.format.DateTimeFormatter#ofPattern`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="415"
+            column="27"
+            startOffset="17315"
+            endLine="415"
+            endColumn="33"
+            endOffset="17321"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="format"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#format`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="415"
+            column="52"
+            startOffset="17340"
+            endLine="415"
+            endColumn="61"
+            endOffset="17349"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.format.DateTimeFormatter"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="ofPattern"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.format.DateTimeFormatter#ofPattern`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="423"
+            column="47"
+            startOffset="17558"
+            endLine="423"
+            endColumn="52"
+            endOffset="17563"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="message"
+                string="Cast from `LocalDateTime` to `Temporal` requires API level 26 (current min is %1$s)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="423"
+            column="54"
+            startOffset="17565"
+            endLine="423"
+            endColumn="57"
+            endOffset="17568"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="message"
+                string="Cast from `LocalDateTime` to `Temporal` requires API level 26 (current min is %1$s)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="423"
+            column="39"
+            startOffset="17550"
+            endLine="423"
+            endColumn="46"
+            endOffset="17557"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="between"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#between`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="424"
+            column="26"
+            startOffset="17595"
+            endLine="424"
+            endColumn="33"
+            endOffset="17602"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="toHours"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#toHours`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/detail/SessionDetailScreen.kt"
+            line="425"
+            column="28"
+            startOffset="17632"
+            endLine="425"
+            endColumn="37"
+            endOffset="17641"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="toMinutes"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#toMinutes`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="174"
+            column="96"
+            startOffset="6545"
+            endLine="174"
+            endColumn="99"
+            endOffset="6548"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="now"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#now`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="222"
+            column="21"
+            startOffset="7926"
+            endLine="222"
+            endColumn="27"
+            endOffset="7932"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="format"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#format`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="222"
+            column="46"
+            startOffset="7951"
+            endLine="222"
+            endColumn="55"
+            endOffset="7960"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.format.DateTimeFormatter"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="ofPattern"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.format.DateTimeFormatter#ofPattern`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="226"
+            column="27"
+            startOffset="8097"
+            endLine="226"
+            endColumn="33"
+            endOffset="8103"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="format"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#format`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="226"
+            column="52"
+            startOffset="8122"
+            endLine="226"
+            endColumn="61"
+            endOffset="8131"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.format.DateTimeFormatter"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="ofPattern"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.format.DateTimeFormatter#ofPattern`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="228"
+            column="27"
+            startOffset="8202"
+            endLine="228"
+            endColumn="33"
+            endOffset="8208"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="format"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#format`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="228"
+            column="52"
+            startOffset="8227"
+            endLine="228"
+            endColumn="61"
+            endOffset="8236"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.format.DateTimeFormatter"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="ofPattern"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.format.DateTimeFormatter#ofPattern`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="236"
+            column="47"
+            startOffset="8432"
+            endLine="236"
+            endColumn="52"
+            endOffset="8437"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="message"
+                string="Cast from `LocalDateTime` to `Temporal` requires API level 26 (current min is %1$s)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="236"
+            column="54"
+            startOffset="8439"
+            endLine="236"
+            endColumn="57"
+            endOffset="8442"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="message"
+                string="Cast from `LocalDateTime` to `Temporal` requires API level 26 (current min is %1$s)"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="236"
+            column="39"
+            startOffset="8424"
+            endLine="236"
+            endColumn="46"
+            endOffset="8431"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="between"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#between`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="237"
+            column="26"
+            startOffset="8469"
+            endLine="237"
+            endColumn="33"
+            endOffset="8476"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="toHours"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#toHours`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:presentation*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/presentation/feature/session/history/SessionHistoryScreen.kt"
+            line="238"
+            column="28"
+            startOffset="8506"
+            endLine="238"
+            endColumn="37"
+            endOffset="8515"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.Duration"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="toMinutes"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.Duration#toMinutes`"/>
+        </map>
+    </incident>
+
+</incidents>

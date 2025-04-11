@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.gentrier.presentation-mergeReleaseResources-65:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/a.tsitulskii/.gradle/caches/transforms-4/ddd2f4570064e73b4e0e831b0f4836b2/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.gentrier.presentation-release-67:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/a.tsitulskii/.gradle/caches/transforms-4/ddd2f4570064e73b4e0e831b0f4836b2/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

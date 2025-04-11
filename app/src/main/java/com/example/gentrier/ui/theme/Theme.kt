@@ -16,23 +16,52 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
+// Alpine-inspired color palette
+val GlacierBlue = Color(0xFF2A93D5)
+val DarkGlacierBlue = Color(0xFF1A6394)
+val SkiRed = Color(0xFFE53935)
+val DarkSkiRed = Color(0xFFB71C1C)
+val SnowWhite = Color(0xFFF5F5F5)
+val MountainGray = Color(0xFF424242)
+val PineGreen = Color(0xFF388E3C)
+val DarkPineGreen = Color(0xFF1B5E20)
+
 private val DarkColorScheme = darkColorScheme(
-    primary = Color(0xFF6750A4),
-    secondary = Color(0xFF625B71),
-    tertiary = Color(0xFF7D5260)
+    primary = GlacierBlue,
+    onPrimary = SnowWhite,
+    primaryContainer = DarkGlacierBlue,
+    onPrimaryContainer = SnowWhite,
+    secondary = SkiRed,
+    onSecondary = SnowWhite,
+    secondaryContainer = DarkSkiRed,
+    onSecondaryContainer = SnowWhite,
+    tertiary = PineGreen,
+    onTertiary = SnowWhite,
+    tertiaryContainer = DarkPineGreen,
+    onTertiaryContainer = SnowWhite,
+    background = Color(0xFF121212),
+    onBackground = SnowWhite,
+    surface = Color(0xFF121212),
+    onSurface = SnowWhite
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Color(0xFF6750A4),
-    secondary = Color(0xFF625B71),
-    tertiary = Color(0xFF7D5260),
-    background = Color(0xFFFFFBFE),
-    surface = Color(0xFFFFFBFE),
-    onPrimary = Color.White,
-    onSecondary = Color.White,
-    onTertiary = Color.White,
-    onBackground = Color(0xFF1C1B1F),
-    onSurface = Color(0xFF1C1B1F),
+    primary = GlacierBlue,
+    onPrimary = SnowWhite,
+    primaryContainer = Color(0xFFD1E4FF),
+    onPrimaryContainer = DarkGlacierBlue,
+    secondary = SkiRed,
+    onSecondary = SnowWhite,
+    secondaryContainer = Color(0xFFFFDAD5),
+    onSecondaryContainer = DarkSkiRed,
+    tertiary = PineGreen,
+    onTertiary = SnowWhite,
+    tertiaryContainer = Color(0xFFABDFBD),
+    onTertiaryContainer = DarkPineGreen,
+    background = SnowWhite,
+    onBackground = MountainGray,
+    surface = SnowWhite,
+    onSurface = MountainGray
 )
 
 @Composable

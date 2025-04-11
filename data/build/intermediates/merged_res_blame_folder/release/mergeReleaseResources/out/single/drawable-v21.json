@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.example.gentrier.data-release-26:/drawable-v21/notification_action_background.xml",
+        "source": "com.example.gentrier.data-core-1.12.0-12:/drawable-v21/notification_action_background.xml"
+    }
+]

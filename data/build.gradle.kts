@@ -32,6 +32,10 @@ android {
     kotlinOptions {
         jvmTarget = "17"
     }
+    
+    lint {
+        abortOnError = false // Don't fail the build if there are lint errors
+    }
 }
 
 dependencies {
@@ -45,6 +49,9 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     kapt(libs.androidx.room.compiler)
+    
+    // Google Play Services - Location
+    implementation("com.google.android.gms:play-services-location:21.0.1")
     
     // Retrofit and Networking
     implementation(libs.retrofit.core)

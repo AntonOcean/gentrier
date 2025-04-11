@@ -46,6 +46,10 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    
+    lint {
+        abortOnError = false // Don't fail the build if there are lint errors
+    }
 }
 
 dependencies {

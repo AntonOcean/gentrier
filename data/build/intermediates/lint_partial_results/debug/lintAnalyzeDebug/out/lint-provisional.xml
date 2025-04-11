@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.3.1" type="conditional_incidents">
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:data*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/data/local/converter/DateTimeConverters.kt"
+            line="8"
+            column="29"
+            startOffset="215"
+            endLine="8"
+            endColumn="66"
+            endOffset="252"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.format.DateTimeFormatter"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="ISO_LOCAL_DATE_TIME"/>
+            <entry
+                name="message"
+                string="Field requires API level 26 (current min is %1$s): `java.time.format.DateTimeFormatter#ISO_LOCAL_DATE_TIME`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:data*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/data/local/converter/DateTimeConverters.kt"
+            line="12"
+            column="43"
+            startOffset="368"
+            endLine="12"
+            endColumn="48"
+            endOffset="373"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="parse"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#parse`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:data*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/data/local/converter/DateTimeConverters.kt"
+            line="17"
+            column="22"
+            startOffset="488"
+            endLine="17"
+            endColumn="28"
+            endOffset="494"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="format"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#format`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:data*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/data/repository/SkiSessionRepositoryImpl.kt"
+            line="24"
+            column="39"
+            startOffset="940"
+            endLine="24"
+            endColumn="42"
+            endOffset="943"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="now"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#now`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:data*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/data/repository/SkiSessionRepositoryImpl.kt"
+            line="39"
+            column="37"
+            startOffset="1490"
+            endLine="39"
+            endColumn="40"
+            endOffset="1493"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="now"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#now`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="NewApi"
+        severity="error"
+        message="">
+        <fix-data minSdk="ffffffffff800000" requiresApi="fffffffffe000000"/>
+        <location
+            file="${:data*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/data/service/LocationTrackingService.kt"
+            line="63"
+            column="51"
+            startOffset="2598"
+            endLine="63"
+            endColumn="54"
+            endOffset="2601"/>
+        <map>
+            <entry
+                name="owner"
+                string="java.time.LocalDateTime"/>
+            <api-levels id="minSdk"
+                value="ffffffffff800000"/>
+            <api-levels id="requiresApi"
+                value="fffffffffe000000"/>
+            <entry
+                name="name"
+                string="now"/>
+            <entry
+                name="message"
+                string="Call requires API level 26 (current min is %1$s): `java.time.LocalDateTime#now`"/>
+        </map>
+    </incident>
+
+    <incident
+        id="MissingPermission"
+        severity="error"
+        message="">
+        <fix-data missing="android.permission.ACCESS_FINE_LOCATION, android.permission.ACCESS_COARSE_LOCATION" message="Missing permissions required by FusedLocationProviderClient.requestLocationUpdates: %1$s" lastApi="2147483647"/>
+        <location
+            file="${:data*debug*MAIN*sourceProvider*0*javaDir*0}/com/example/gentrier/data/service/LocationTrackingService.kt"
+            line="146"
+            column="13"
+            startOffset="5570"
+            endLine="150"
+            endColumn="14"
+            endOffset="5733"/>
+        <map>
+            <entry
+                name="requirement"
+                string="|android.permission.ACCESS_COARSE_LOCATION,android.permission.ACCESS_FINE_LOCATION"/>
+            <entry
+                name="message"
+                string="Missing permissions required by FusedLocationProviderClient.requestLocationUpdates: %1$s"/>
+        </map>
+    </incident>
+
+</incidents>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.gentrier.presentation-release-67:/layout-v26/mtrl_calendar_month.xml",
+        "source": "com.example.gentrier.presentation-material-1.12.0-56:/layout-v26/mtrl_calendar_month.xml"
+    },
+    {
+        "merged": "com.example.gentrier.presentation-release-67:/layout-v26/abc_screen_toolbar.xml",
+        "source": "com.example.gentrier.presentation-appcompat-1.6.1-52:/layout-v26/abc_screen_toolbar.xml"
+    }
+]

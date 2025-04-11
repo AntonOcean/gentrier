@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.gentrier.presentation-release-67:/drawable-ldpi-v4/ic_call_answer_video_low.png",
+        "source": "com.example.gentrier.presentation-core-1.13.0-49:/drawable-ldpi-v4/ic_call_answer_video_low.png"
+    },
+    {
+        "merged": "com.example.gentrier.presentation-release-67:/drawable-ldpi-v4/ic_call_answer.png",
+        "source": "com.example.gentrier.presentation-core-1.13.0-49:/drawable-ldpi-v4/ic_call_answer.png"
+    },
+    {
+        "merged": "com.example.gentrier.presentation-release-67:/drawable-ldpi-v4/ic_call_answer_video.png",
+        "source": "com.example.gentrier.presentation-core-1.13.0-49:/drawable-ldpi-v4/ic_call_answer_video.png"
+    },
+    {
+        "merged": "com.example.gentrier.presentation-release-67:/drawable-ldpi-v4/ic_call_answer_low.png",
+        "source": "com.example.gentrier.presentation-core-1.13.0-49:/drawable-ldpi-v4/ic_call_answer_low.png"
+    },
+    {
+        "merged": "com.example.gentrier.presentation-release-67:/drawable-ldpi-v4/ic_call_decline.png",
+        "source": "com.example.gentrier.presentation-core-1.13.0-49:/drawable-ldpi-v4/ic_call_decline.png"
+    },
+    {
+        "merged": "com.example.gentrier.presentation-release-67:/drawable-ldpi-v4/ic_call_decline_low.png",
+        "source": "com.example.gentrier.presentation-core-1.13.0-49:/drawable-ldpi-v4/ic_call_decline_low.png"
+    }
+]
